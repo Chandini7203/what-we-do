@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.intro {
+    padding: 20px;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services ul li {
+    padding: 5px 0;
+}
+
+.projects {
+    padding: 20px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 30%;
+    background: #e3e3e3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
